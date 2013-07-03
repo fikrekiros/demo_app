@@ -13,6 +13,9 @@ gem 'sass-rails', '~> 4.0.0'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.0.4'
 
+#use closure compiler because herohu not working with uglifier
+gem 'closure-compiler'
+
 # Use CoffeeScript for .js.coffee assets and views
 gem 'coffee-rails', '~> 4.0.0'
 
